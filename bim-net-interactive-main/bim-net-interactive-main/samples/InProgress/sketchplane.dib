@@ -1,0 +1,117 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"csharp","items":[{"aliases":[],"languageName":"csharp","name":"csharp"}]}}
+
+#!csharp
+
+#r "nuget:Jowsy.DotNet.Interactive.Extensions"
+
+#i "C:\git\bim-net-interactive\src\Jowsy.DotNet.Interactive.Extensions\bin\Debug"
+
+#!csharp
+
+#!connect revit --kernel-name revit24 --revit-version 2024
+
+#!csharp
+
+#r "nuget:Revit.RevitApi.x64, 2023.0.0"
+#r "nuget:Revit.RevitApiUi.x64, 2023.0.0"
+using Autodesk.Revit.DB;
+using Autodesk.Revit.UI;
+
+#!csharp
+
+#!revit24
+
+Document doc = uidoc.Document;
+
+SketchPlane sketchPlane = null;
+     using (Transaction tx = new Transaction(doc))
+        {
+           
+                tx.Start("Create SketchPlane");
+
+                // Define a plane in Revit. For example, this will be the XY plane (normal is Z-axis).
+                Plane geomPlane = Plane.CreateByNormalAndOrigin(XYZ.BasisZ, XYZ.Zero);
+
+                // Create a SketchPlane using the Plane you've defined
+                sketchPlane = SketchPlane.Create(doc, geomPlane);
+                // Optionally, you may set the active sketch plane in the UI
+                uidoc.ActiveView.SketchPlane = sketchPlane;
+                uidoc.ActiveView.ShowActiveWorkPlane();
+                // Commit the transaction
+                tx.Commit();      
+
+        }
+display(sketchPlane);
+sketchPlane
+            
+
+#!csharp
+
+#!revit24
+Document doc = uidoc.Document;
+ModelCurve curve = null;
+using (Transaction tx = new Transaction(doc))
+        {
+         
+                tx.Start("Create Model Line");
+
+                // Define start and end points for the line on the sketch plane
+                XYZ startPoint = new XYZ(0, 0, 0); // Start point at the origin
+                XYZ endPoint = new XYZ(10, 10, 0); // End point 10 feet in the X and Y direction
+
+                // Create a line bound by the start and end points
+                Line geomLine = Line.CreateBound(startPoint, endPoint);
+                
+                // Create a detail line using the created line and the sketch plane
+                curve = doc.Create.NewModelCurve(geomLine, sketchPlane);
+
+                // Commit the transaction
+                tx.Commit();
+        }
+display(curve);
+curve
+
+#!csharp
+
+#!revit24
+
+Document doc = uidoc.Document;
+
+// Retrieve the wall type to use for the new wall
+WallType wallType = new FilteredElementCollector(doc)
+    .OfClass(typeof(WallType))
+    .OfType<WallType>()
+    .FirstOrDefault(); // Specify the wall type name here
+
+display(wallType.Name);
+wallType
+
+#!csharp
+
+#!revit24
+
+     // Define the level at which the wall should be placed
+                Level level = new FilteredElementCollector(doc)
+                    .OfClass(typeof(Level))
+                    .OfType<Level>()
+                    .FirstOrDefault();
+display(level);
+level
+
+#!csharp
+
+    
+#!revit24
+
+          using (Transaction tx = new Transaction(doc))
+        {
+            tx.Start("Create Wall");
+
+            Wall wall = Wall.Create(doc, curve.GeometryCurve, wallType.Id, level.Id, 10, 0, false, false);
+
+            tx.Commit();
+
+            display(wall);
+        }

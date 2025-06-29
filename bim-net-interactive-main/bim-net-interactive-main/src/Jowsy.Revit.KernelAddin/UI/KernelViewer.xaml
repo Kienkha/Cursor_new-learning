@@ -1,0 +1,82 @@
+﻿<Page x:Class="Jowsy.Revit.KernelAddin.UI.KernelViewer"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Jowsy.Revit.KernelAddin.UI"
+             mc:Ignorable="d" 
+             xmlns:dxg="urn:tom-englert.de/DataGridExtensions" 
+    Background="white"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Page.Resources>
+        <ResourceDictionary>
+            <local:EnumToStringConverter x:Key="EnumToStringConverter"/>
+            <local:InverseBooleanConverter x:Key="InverseBooleanConverter"/>
+        </ResourceDictionary>
+    </Page.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="100"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" VerticalAlignment="Center" Padding="1" Margin="2" Command="{Binding StartCommand}" IsEnabled="{Binding StartButtonEnabled, UpdateSourceTrigger=PropertyChanged}">Start
+            </Button>
+            <Button Grid.Column="1" VerticalAlignment="Center" Padding="1"  Margin="2" Command="{Binding RestartCommand}" IsEnabled="{Binding StartButtonEnabled, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource InverseBooleanConverter}}">Restart</Button>
+          
+            <Button Grid.Column="3" VerticalAlignment="Center" Padding="1"  Margin="2" Command="{Binding SettingsCommand}">Settings</Button>
+            <Canvas Grid.Column="2" Height="25" Width="25" HorizontalAlignment="Left">
+                <Ellipse
+                Width="20"
+                Height="20"
+                Stroke="Black"
+                StrokeThickness="2">
+                    <Ellipse.Style>
+                        <Style TargetType="{x:Type Ellipse}">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding Path=KernelStatus}" Value="0">
+                                    <Setter Property="Fill" Value="Red"/>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding Path=KernelStatus}" Value="1">
+                                    <Setter Property="Fill" Value="Orange"/>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding Path=KernelStatus}" Value="2">
+                                    <Setter Property="Fill" Value="Green"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Ellipse.Style>
+                </Ellipse>
+            </Canvas>
+        </Grid>
+        <TabControl x:Name="tabControl" Grid.Row="1">
+            <TabItem Header="Variables">
+                <DataGrid Grid.Row="1" Margin="0,5,0,0" RowHeaderWidth="16" 
+                        Padding="5"
+                        dxg:DataGridFilter.IsAutoFilterEnabled="True"
+                        CanUserAddRows="False"
+                        IsReadOnly="True"
+                        ItemsSource="{Binding Path=Variables}"/>
+            </TabItem>
+            <TabItem Header="Events">
+                <DataGrid Grid.Row="1" 
+                              Margin="0,5,0,0" 
+                              RowHeaderWidth="16" 
+                              Padding="5"
+                              IsReadOnly="True"
+                              CanUserAddRows="False"
+                              dxg:DataGridFilter.IsAutoFilterEnabled="True"
+                              ItemsSource="{Binding Path=KernelCommands}"/>
+
+            </TabItem>
+        </TabControl>
+        <TextBlock Grid.Row="3" VerticalAlignment="Center" FontWeight="Bold" HorizontalAlignment="Left" Text="{Binding KernelStatus, Converter={StaticResource EnumToStringConverter}, UpdateSourceTrigger=PropertyChanged}" Margin="5,0,0,0"/>
+    </Grid>
+</Page>

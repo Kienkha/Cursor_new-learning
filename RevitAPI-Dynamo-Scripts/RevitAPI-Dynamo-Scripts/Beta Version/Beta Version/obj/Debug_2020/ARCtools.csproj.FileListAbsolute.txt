@@ -1,0 +1,95 @@
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\ARCtools.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\ARCtools.pdb
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\RevitAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\RevitAPIUI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\AdpSDKCSharpWrapper.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\RevitAPIFoundation.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\RevitDBAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\PersistenceDBAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\UtilityAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\APIDBAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\GraphicsAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\ElementGroupDBAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\EssentialsDBAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\GeomUtilAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\FamilyDBAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\DetailDBAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\CurtainGridFamilyDBAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\ArrayElemsDBAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\EnergyAnalysisDBAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\BuildingSystemsDBAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\HostObjDBAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\RoomAreaPlanDBAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\SiteDBAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\SculptingDBAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\StructuralDBAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\InterfaceAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\InterfaceUtilAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\RebarDBAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\StructuralAnalysisDBAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\MassingDBAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\AssemblyDBAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\DPartDBAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\NumberingDBAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\PointCloudAccessAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\StairRampDBAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\AnalysisAppsDBAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\MaterialDBAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\DBManagedServices.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\AdWindows.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\RevitAddInUtility.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\APIInterop.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\UIFramework.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\AddInManager.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\RevitUIAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\BuildingSystemsUIAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\DesktopMFCAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\APIUIAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\RevitMFCAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\EssentialsUIAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\EnergyAnalysisUtilitiesAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\DetailUIAPI.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\UIFrameworkServices.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\ManagedMC3.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\Autodesk.UI.Themes.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\Xceed.Wpf.AvalonDock.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\Autodesk.UI.Windows.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\RevitAPI.xml
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\RevitAPIUI.xml
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\RevitAddInUtility.xml
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\cs-CZ\AdWindows.resources.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\de-DE\AdWindows.resources.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\en-GB\AdWindows.resources.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\en-US\AdWindows.resources.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\es-ES\AdWindows.resources.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\fr-FR\AdWindows.resources.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\it-IT\AdWindows.resources.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\ja-JP\AdWindows.resources.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\ko-KR\AdWindows.resources.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\pl-PL\AdWindows.resources.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\pt-BR\AdWindows.resources.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\ru-RU\AdWindows.resources.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\zh-CN\AdWindows.resources.dll
+C:\Users\conserve\source\repos\ARCtools\trail\bin\Debug_2020\zh-TW\AdWindows.resources.dll
+C:\Users\conserve\source\repos\ARCtools\trail\obj\Debug_2020\ARCtools.g.resources
+C:\Users\conserve\source\repos\ARCtools\trail\obj\Debug_2020\ARCtools.PlaceFamilyForm.resources
+C:\Users\conserve\source\repos\ARCtools\trail\obj\Debug_2020\ARCtools.SearchRoombyNumberForm.resources
+C:\Users\conserve\source\repos\ARCtools\trail\obj\Debug_2020\ARCtools.csproj.GenerateResource.cache
+C:\Users\conserve\source\repos\ARCtools\trail\obj\Debug_2020\ARCtools.csproj.CoreCompileInputs.cache
+C:\Users\conserve\source\repos\ARCtools\trail\obj\Debug_2020\ARCtools.csproj.CopyComplete
+C:\Users\conserve\source\repos\ARCtools\trail\obj\Debug_2020\ARCtools.dll
+C:\Users\conserve\source\repos\ARCtools\trail\obj\Debug_2020\ARCtools.pdb
+C:\Users\conserve\source\repos\ARCtools\trail\obj\Debug_2020\ARCtools.Properties.Resources.resources
+C:\Users\conserve\source\repos\ARCtools\trail\obj\Debug_2020\ARCtools.CreatePlanForm.resources
+C:\Users\conserve\source\repos\00_WIP - Codings\ARCtools\trail\bin\Debug_2020\ARCtools.dll
+C:\Users\conserve\source\repos\00_WIP - Codings\ARCtools\trail\bin\Debug_2020\ARCtools.pdb
+C:\Users\conserve\source\repos\00_WIP - Codings\ARCtools\trail\obj\Debug_2020\ARCtools.g.resources
+C:\Users\conserve\source\repos\00_WIP - Codings\ARCtools\trail\obj\Debug_2020\ARCtools.CreatePlanForm.resources
+C:\Users\conserve\source\repos\00_WIP - Codings\ARCtools\trail\obj\Debug_2020\ARCtools.PlaceFamilyForm.resources
+C:\Users\conserve\source\repos\00_WIP - Codings\ARCtools\trail\obj\Debug_2020\ARCtools.Properties.Resources.resources
+C:\Users\conserve\source\repos\00_WIP - Codings\ARCtools\trail\obj\Debug_2020\ARCtools.SearchRoombyNumberForm.resources
+C:\Users\conserve\source\repos\00_WIP - Codings\ARCtools\trail\obj\Debug_2020\ARCtools.csproj.GenerateResource.cache
+C:\Users\conserve\source\repos\00_WIP - Codings\ARCtools\trail\obj\Debug_2020\ARCtools.csproj.CoreCompileInputs.cache
+C:\Users\conserve\source\repos\00_WIP - Codings\ARCtools\trail\obj\Debug_2020\ARCtools.csproj.CopyComplete
+C:\Users\conserve\source\repos\00_WIP - Codings\ARCtools\trail\obj\Debug_2020\ARCtools.dll
+C:\Users\conserve\source\repos\00_WIP - Codings\ARCtools\trail\obj\Debug_2020\ARCtools.pdb

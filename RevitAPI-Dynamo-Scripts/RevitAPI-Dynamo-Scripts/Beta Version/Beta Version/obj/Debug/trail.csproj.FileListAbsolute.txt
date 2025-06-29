@@ -1,0 +1,9 @@
+C:\Users\conserve\source\repos\trail\trail\bin\Debug\trail.dll
+C:\Users\conserve\source\repos\trail\trail\bin\Debug\trail.pdb
+C:\Users\conserve\source\repos\trail\trail\obj\Debug\trail.Form1.resources
+C:\Users\conserve\source\repos\trail\trail\obj\Debug\trail.csproj.GenerateResource.cache
+C:\Users\conserve\source\repos\trail\trail\obj\Debug\trail.csproj.CoreCompileInputs.cache
+C:\Users\conserve\source\repos\trail\trail\obj\Debug\trail.dll
+C:\Users\conserve\source\repos\trail\trail\obj\Debug\trail.pdb
+C:\Users\conserve\source\repos\trail\trail\obj\Debug\trail.SearchRoombyNumberForm.resources
+C:\Users\conserve\source\repos\trail\trail\obj\Debug\trail.g.resources
